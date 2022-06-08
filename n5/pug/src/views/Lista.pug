@@ -1,0 +1,35 @@
+
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+
+        title Bibloteca virtual
+
+    body
+    div(class="container mt-3")
+        h2(class="Titulo" style="color: cadetblue;") Bibloteca
+        div(style="display: flex; flex-direction: column; align-items: center; padding: 2rem;")
+            a(href="/" class="btn btn-outline-primary") Volver al inicio
+
+        table(class="table")
+            tr
+                th Autor
+                th Titulo
+                th Descripcion
+                th Putuacion
+
+            if(Libros.length> 0)
+
+                each n in Libros
+                    tr
+                        td= n.Autor
+                        td= n.Titulo
+                        td= n.Descripcion
+                        td= `${n.Ratio}/10`
+            else
+                tr
+                    td No hay datos
+

@@ -1,0 +1,41 @@
+[
+  {
+    "Autor": "John Green",
+    "Title": "Bajo la misma estrella",
+    "Sinopsis": "Dos adolecentes moribundos enamorados",
+    "Puntuacion": "5/10",
+    "id": 1
+  },
+  {
+      
+      "Autor": "John Boyne",
+      "Title": "El niño del pijama de rayas",
+      "Sinopsis": "Una triste historia sobre un niño judio en la alemaña nazi",
+      "Puntuacion": "7/10",
+      "id": 2
+    },
+    {
+      
+      "Autor": "Mark Haddon",
+      "Title": "El curioso incidente del perro a medianoche",
+      "Sinopsis": "Un niño con Síndrome de Asperger que resuelve el misterio del asesinato de un perro",
+      "Puntuacion": "12/10",
+      "id": 3
+    },
+    {
+      
+      "Autor": "George R.R",
+      "Title": "Juego de tronos",
+      "Sinopsis": "Historia sobre un mundo medieval en el que varias familias se pelean por un trono, amor, sangre, sexo y mas sangre... Y DRAGONES",
+      "Puntuacion": "12/10",
+      "id": 4
+    },
+    {
+      
+      "Autor": "John Ronald Reuel Tolkien",
+      "Title": "El señor de los anillos",
+      "Sinopsis": "Un mundo de la edad media se enfrenta a un poderoso ser que quiere gobernar a todos mediante la adquisicion de un anillo magico, nuestros heroes lo van a tratar de detener destruyendo ese anillo... lo lograran??",
+      "Puntuacion": "12/10",
+      "id": 5
+    }
+]

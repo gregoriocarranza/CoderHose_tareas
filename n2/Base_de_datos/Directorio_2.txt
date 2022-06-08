@@ -1,0 +1,9 @@
+[
+  {
+    "Autor": "John Green",
+    "Title": "Bajo la misma estrella",
+    "Sinopsis": "Dos adolecentes moribundos enamorados",
+    "Puntuacion": "5/10",
+    "id": 1
+  }
+]

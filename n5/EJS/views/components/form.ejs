@@ -1,0 +1,35 @@
+<form action="/bibloteca" method="post" class="form">
+
+    <label for="Autor">Autor</label>
+    <input class="form-control" type="text" name="Autor" id="Autor" placeholder="Ingrese un Autor">
+
+    <label for="Titulo">Titulo</label>
+    <input class="form-control" type="text" name="Titulo" id="Titulo" placeholder="Ingrese un titulo">
+
+
+    <label for="Descripcion">Descripcion</label>
+    <textarea class="form-control" name="Descripcion" id="Descripcion" cols="30" rows="10" placeholder="Ingrese una Descripcion"></textarea>
+
+
+    <label for="Ratio">Puntuacion</label>
+    <input class="form-control" type="range" name="Ratio" id="Ratio" min="1" max="10">
+
+    <input class="Send_btn" type="submit" value="Ingresar">
+
+</form>
+
+<style>
+    .form {
+        background-color: gainsboro;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 1rem;
+        
+    }
+    
+    .Send_btn{
+        width: 25rem;
+        margin: auto;
+    }
+</style>

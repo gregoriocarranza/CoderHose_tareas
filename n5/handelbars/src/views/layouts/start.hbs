@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibloteca virtual</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container mt-3">
+
+        <form action="/bibloteca" method="post" class="form">
+
+            <label for="Autor">Autor</label>
+            <input class="form-control" type="text" name="Autor" id="Autor" placeholder="Ingrese un Autor">
+
+            <label for="Titulo">Titulo</label>
+            <input class="form-control" type="text" name="Titulo" id="Titulo" placeholder="Ingrese un titulo">
+
+
+            <label for="Descripcion">Descripcion</label>
+            <textarea class="form-control" name="Descripcion" id="Descripcion" cols="30" rows="10"
+                placeholder="Ingrese una Descripcion"></textarea>
+
+
+            <label for="Ratio">Puntuacion</label>
+            <input class="form-control" type="range" name="Ratio" id="Ratio" min="1" max="10">
+
+            <input class="Send_btn" type="submit" value="Ingresar">
+
+        </form>
+
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; padding: 2rem;"><a href="/bibloteca"
+            class="btn btn-outline-primary">Ir a la Bibloteca</a>
+    </div>
+
+    {{Lista}}
+</body>
+
+</html>
+
+
+
+
+
+<style>
+    .form {
+        background-color: gainsboro;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 1rem;
+
+    }
+
+    .Send_btn {
+        width: 25rem;
+        margin: auto;
+    }
+</style>
