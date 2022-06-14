@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: column; align-items:flex-end; padding: 2rem;"><a href="./chat.html"
+            class="btn btn-outline-primary">Ir al chat</a></div>
+
+    <form onsubmit="return EnviarLibro()" class="form">
+
+        <label for="Autor">Autor</label>
+        <input class="form-control" type="text" name="Autor" id="Autor" placeholder="Ingrese un Autor">
+
+        <label for="Titulo">Titulo</label>
+        <input class="form-control" type="text" name="Titulo" id="Titulo" placeholder="Ingrese un titulo">
+
+
+        <label for="Descripcion">Descripcion</label>
+        <textarea class="form-control" name="Descripcion" id="Descripcion" cols="30" rows="10"
+            placeholder="Ingrese una Descripcion"></textarea>
+
+
+        <label for="Ratio">Puntuacion</label>
+        <input class="form-control" type="range" name="Ratio" id="Ratio" min="1" max="10">
+
+        <input class="Send_btn_biblio" id="Send_btn_biblio" type="submit" value="Ingresar">
+
+    </form>
+
+    <div class="container mt-3">
+        <h2 class="Titulo" style="color: cadetblue; text-align: center;">Bibloteca</h2>
+        <table class="table" id="Bibliotecas"></table>
+    </div>
+
+</body>
+<script src="./assets/js/websocket.js"></script>
+
+<style>
+    .form {
+        background-color: gainsboro;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 1rem;
+        width: 60rem;
+        margin: auto;
+
+    }
+
+    .Send_btn {
+        width: 25rem;
+        margin: auto;
+    }
+</style>
+
+</html>
