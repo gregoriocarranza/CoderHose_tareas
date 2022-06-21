@@ -1,0 +1,50 @@
+[
+  {
+    "Autor": "John Green",
+    "Titulo": "Bajo la misma estrella",
+    "Descripcion": "Dos adolecentes moribundos enamorados",
+    "Ratio": "5",
+    "id": 1,
+    "Precio":100
+  },
+  {
+    "Autor": "John Boyne",
+    "Titulo": "El niño del pijama de rayas",
+    "Descripcion": "Una triste historia sobre un niño judio en la alemaña nazi",
+    "Ratio": "7",
+    "id": 2,
+    "Precio":100
+  },
+  {
+    "Autor": "Mark Haddon",
+    "Titulo": "El curioso incidente del perro a medianoche",
+    "Descripcion": "Un niño con Síndrome de Asperger que resuelve el misterio del asesinato de un perro",
+    "Ratio": "12",
+    "id": 3,
+    "Precio":100
+  },
+  {
+    "Autor": "George R.R",
+    "Titulo": "Juego de tronos",
+    "Descripcion": "Historia sobre un mundo medieval en el que varias familias se pelean por un trono, amor, sangre, sexo y mas sangre... Y DRAGONES",
+    "Ratio": "12",
+    "id": 4,
+    "Precio":100
+  },
+  {
+    "Autor": "John Ronald Reuel Tolkien",
+    "Titulo": "El señor de los anillos",
+    "Descripcion": "Un mundo de la edad media se enfrenta a un poderoso ser que quiere gobernar a todos mediante la adquisicion de un anillo magico, nuestros heroes lo van a tratar de detener destruyendo ese anillo... lo lograran??",
+    "Ratio": "12",
+    "id": 5,
+    "Precio":100
+  },
+  {
+    "Autor": "John Green",
+    "Titulo": "Bajo la misma estrella",
+    "Descripcion": "Dos adolecentes moribundos enamorados",
+    "Ratio": "5",
+    "id": 6,
+    "Precio":100
+  }
+]
