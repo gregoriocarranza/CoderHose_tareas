@@ -1,0 +1,17 @@
+.popup {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  margin: 1rem auto 1rem auto;
+  background-color: lightgray;
+  padding: 1rem;
+}
+.popup input {
+  margin: 0 0 1rem 0;
+}
+.popup textarea {
+  margin: 0 0 1rem 0;
+}
